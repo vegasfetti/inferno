@@ -1,0 +1,65 @@
+.categories {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: -200px;
+    z-index: 1000;
+    position: relative;
+}
+
+.categories_item {
+    width: 460px;
+    height: 495px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.categories_item--first {
+    background: linear-gradient(#00000000, #00000000), url('../../../public/categories/Img.png');
+}
+
+.categories_item--second {
+    background: linear-gradient(#00000000, #00000000), url('../../../public/categories/Img-1.png');
+}
+
+.categories_item--thers {
+    background: linear-gradient(#00000000, #00000000), url('../../../public/categories/Img-2.png');
+}
+
+.categories_item--first:hover {
+    background: linear-gradient(#00000017, #00000017),
+        url('../../../public/categories/Img.png');
+}
+
+.categories_item--second:hover {
+    background: linear-gradient(#00000017, #00000017), url('../../../public/categories/Img-1.png');
+}
+
+.categories_item--thers:hover {
+    background: linear-gradient(#00000017, #00000017), url('../../../public/categories/Img-2.png');
+}
+
+.categories_item_placeholder p {
+    font-size: 14px;
+    color: #111111;
+    border-bottom: 1px solid transparent;
+    text-transform: uppercase;
+}
+
+.categories_item_placeholder {
+    position: absolute;
+    padding: 7px 25px;
+    background: #fff;
+    width: fit-content;
+
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.categories_item:hover .categories_item_placeholder p{
+    border-bottom: 1px solid #111111;
+
+}

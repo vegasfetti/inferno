@@ -1,0 +1,89 @@
+.card:hover .card_btns {
+    bottom: 10%;
+}
+
+.card {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    cursor: pointer;
+    width: 300px;
+    height: 465px;
+}
+
+.card_img {
+    height: 462px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card_btns {
+    position: absolute;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+
+    bottom: -100%;
+}
+
+.add_basket {
+    padding: 7px 24px;
+
+    background: #fff;
+}
+
+.add_basket p {
+    font-size: 14px;
+    color: #111111;
+    border-bottom: 1px solid transparent;
+}
+
+.add_basket p:hover {
+    border-bottom: 1px solid #111111;
+    cursor: pointer;
+}
+
+.add_like {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 100px;
+}
+
+.add_like:hover .like {
+    opacity: .6;
+    cursor: pointer;
+}
+
+.card_content{
+
+}
+
+.card_content p{
+opacity: .5;
+}
+
+.card_content span{
+    text-transform: uppercase;
+}
+
+.swiper-pagination {
+padding-top: 100px;}
+
+.swiper-pagination-bullet-active{
+    background-color: #111111;
+}
+
+.swiper {
+    height: 570px;
+}
+

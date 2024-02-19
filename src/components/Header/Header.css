@@ -1,0 +1,48 @@
+.logo {
+    font-family: 'Marcellus', serif;
+    font-size: 36px;
+    color: #111111;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    background: #F1F1F0;
+    border-bottom: 1px solid #11111171;
+}
+
+.header_nav a:hover {
+    border-bottom: 1px solid #111111;
+
+}
+
+.header_nav a {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #111111;
+    border-bottom: 1px solid transparent;
+
+    cursor: pointer;
+}
+
+.header_nav {
+    display: flex;
+    gap: 50px;
+}
+
+.header_icons {
+    display: flex;
+    gap: 30px;
+}
+
+.header_icons img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}

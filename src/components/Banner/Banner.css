@@ -1,0 +1,21 @@
+.banner{
+    width: 100%;
+    height: 910px;
+    background: linear-gradient(#00000070, #00000070), url('../../../public/banner/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner_title{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    font-size: 128px;
+    color: #fff;
+    font-family: 'Marcellus', serif; 
+
+}

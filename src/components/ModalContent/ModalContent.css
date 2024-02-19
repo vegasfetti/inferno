@@ -1,0 +1,185 @@
+.ReactModal__Content {
+    width: 1300px;
+    margin: auto auto;
+    height: 650px;
+    overflow: hidden;
+    border: 0px;
+}
+
+.ReactModal__Overlay {
+    z-index: 100000;
+}
+
+.ModalContent h1 {
+    font-size: 40px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.ModalContent {
+    padding: 50px;
+    position: relative;
+}
+
+.ModalContent__close {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    background: transparent;
+    border: 0px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.ModalContent__close:hover {
+    opacity: .6;
+}
+
+.ModalContent__items {
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.ModalContent__item {
+    width: 500px;
+    padding: 20px 25px;
+    border: 1px solid #00000030;
+    border-radius: 6px;
+}
+
+.ModalContent__item--first {
+    display: flex;
+    gap: 20px;
+}
+
+
+.ModalContent__item-img {
+    width: 100px;
+    height: 135px;
+    background: url('../../../public/products/1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ModalContent__item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ModalContent__item-title {
+    font-size: 20px;
+}
+
+.ModalContent__item-cat {
+    font-size: 14px;
+    display: flex;
+    gap: 7px;
+}
+
+.ModalContent__item-color p {
+    opacity: .5;
+}
+
+.ModalContent__item-color {
+    font-size: 14px;
+    display: flex;
+    gap: 7px;
+}
+
+.ModalContent__item-cat p {
+    opacity: .5;
+}
+
+.ModalContent__item-prcie {
+    font-family: 'Marcellus', serif;
+    font-size: 24px;
+    color: #646464;
+
+}
+
+.ModalContent__item {
+    position: relative;
+    height: fit-content;
+}
+
+.ModalContent__item-delete {
+    position: absolute;
+    bottom: 5px;
+    right: 8px;
+    opacity: .5;
+
+}
+
+.ModalContent__item--second {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.double {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ModalContent__item h2 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.double p {
+    font-size: 20px;
+    color: #000000;
+    opacity: .5;
+}
+
+.ModalContent__item .hr{
+    height: 1px;
+    width: 100%;
+    background: #dddddd;
+}
+
+.double span {
+    color: #000000;
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
+}
+
+.double button{
+    background: rgb(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 9px 15px;
+    border: 0px;
+    width: 100px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.double .input{
+    padding: 10px 15px;
+    width: 330px;
+    border-radius: 10px;
+    background: #F0F0F0;
+    color: #646464b0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.double font{
+    padding: 10px 15px;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}

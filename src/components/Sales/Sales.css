@@ -1,0 +1,19 @@
+.salles_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.salles_btn p {
+    padding: 7px 24px;
+    background: #111111c9;
+    color: #fff;
+    width: fit-content;
+    font-size: 14px;
+}
+
+.salles {
+    width: 100%;
+}
